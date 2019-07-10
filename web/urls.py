@@ -6,5 +6,6 @@ urlpatterns = [
     url(r'^submit/expense/$',views.submit_expense,name = 'submit_expense'),
     url(r'^submit/income/$',views.submit_income,name = 'submit_income'),
     url(r'^register/$',views.register,name = 'register'),
+    url(r'^login/$',views.login,name = 'login'),
 
 ]

@@ -121,5 +121,14 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 site_key = '6LeFXawUAAAAAGqiSDTeDfRC0D6AGKXdN4YFxlNO'
-RECAPTCHA_SECRET_KEY = '6LeFXawUAAAAADdEB6V_GnjaSl2HivZa939x9Fg9'
+RECAPTCHA_SECRET_KEY = '6LdeeqwUAAAAAObhbgaa4JvGkPpUDqBKMXeWbjlO'
 POSTMARK_API_TOKEN =''
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'fahim.kammand2@gmail.com'
+EMAIL_HOST_PASSWORD = 'besmelah'
